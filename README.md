@@ -5,7 +5,8 @@ This is based on :[Using pip, virtualenv, and virtualenvwrapper in Cygwin](http:
 
 This is a project make cygwin, virtualenv work together. 
 
-Here is the steps of how to use it
+## Install
+
 * Use Cygwin setup to install Python for Cygwin.
 * Install easy_install in your Cygwin: download [ez_setup.py](http://peak.telecommunity.com/dist/ez_setup.py) and run ```python .\ez_setup.py``` in Cygwin.
 * Install pip by using easy_install: ```eazy_install pip```.
@@ -17,10 +18,12 @@ Here is the steps of how to use it
   source /usr/bin/virtualenvwrapper.sh
 ```
 
-create a new virtualenv in your Cygwin: ```mkvirtualenv my-first-env```
-activate your virtualenv: ```workon my-first-env``` 
-To deactivate your virtualenv: ```deactivate``` 
-To remove the virtualenv: ```rmvirtualenv my-first-env```
+## Use:
+
+* create a new virtualenv in your Cygwin: ```mkvirtualenv my-first-env```
+* activate your virtualenv: ```workon my-first-env``` 
+* To deactivate your virtualenv: ```deactivate``` 
+* To remove the virtualenv: ```rmvirtualenv my-first-env```
 
 
 
